@@ -1,0 +1,26 @@
+# llms.txt for https://nrgee.ru/
+# Rules for LLM bots accessing the site
+
+User-agent: *
+
+Allow: /
+Allow: /rails/
+Allow: /catalog/
+Allow: /tupik/
+Allow: /gost/
+Allow: /krestovina/
+Allow: /8739/
+Allow: /mvsp/
+Allow: /rails/r65/
+Allow: /rulsovye-izdeliya/
+Allow: /naplavka-krestovin/
+Allow: /naplavka-ostryakov/
+Allow: /calculator/
+Allow: /calculator-kr/
+Allow: /tproduct/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+
+Crawl-delay: 10
+
+Sitemap: https://nrgee.ru/sitemap.xml
